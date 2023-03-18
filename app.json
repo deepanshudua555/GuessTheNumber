@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "GuessTheNumber",
+    "name": "Guess The Number",
     "slug": "GuessTheNumber",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deepanshu_dua5.GuessTheNumber"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a99b26cc-39f2-4392-9a6c-49ae8d27cdb0"
+      }
     }
   }
 }
